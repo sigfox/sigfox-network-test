@@ -1,10 +1,11 @@
 {
-  "name": "Sigfox network test",
+  "name": "Sigfox-network-test",
   "version": "1.0.0",
   "description": "Script command to geocode a list of addresses and request Sigfox coverage",
   "main": "geocode.js",
   "dependencies": {
     "@google/maps": "^0.3.1",
+    "csv": "^2.0.0",
     "request": "^2.81.0"
   },
   "repository": {
@@ -15,7 +16,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["sigfox","network","LPWAN","eligibilty"],
+  "keywords": [
+    "sigfox",
+    "network",
+    "LPWAN",
+    "eligibilty"
+  ],
   "author": "Guillaume Simenel",
   "license": "ISC"
 }

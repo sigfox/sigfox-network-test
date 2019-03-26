@@ -1,4 +1,7 @@
 # Sigfox Network eligiblity test
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sigfox/sigfox-network-test.svg)](https://greenkeeper.io/)
+
 This small javascript tool will take addresses, geocode them with Google API, and query Sigfox API in order to test the Sigfox network available over there.
 
 ## Install

@@ -5,6 +5,7 @@
   "main": "geocode.js",
   "dependencies": {
     "@google/maps": "^0.3.1",
+    "dotenv": "^8.2.0",
     "csv": "^2.0.0",
     "request": "^2.81.0"
   },

@@ -6,16 +6,17 @@ This small javascript tool will take addresses, geocode them with Google API, an
 	git clone https://github.com/sigfox/sigfox-network-test
 	npm install
 
-You must add your own Google API Key and Sigfox API Key !!
-Add a config.local.js file with :
+### Configuration
 
-	module.exports = {
-	    GoogleApiKey : '',
-	    sigfoxCredentials : {
-	        'Login': "",
-	        'Password': ""
-	    }
-	}
+Use a [https://github.com/motdotla/dotenv#readme](.env) file to store your configuration credentials. Never  `git commit` this `.env` file!
+Structure of the file and necessary variables:
+```
+GoogleApiKey=xx
+SigfoxAPILogin=NotYourAccountLoginButAPICredentials
+SigfoxAPIPassword=NotYourAccountPasswordButAPICredentials
+
+```
+
 
 ## Run
 

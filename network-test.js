@@ -45,7 +45,7 @@ function coverageCheck(address, lat, lng, callbackFunction){
   // Sigfox API request
   // callbackFunction has 4 arguments: address, lat, lng, coverageResults
   var options = {
-      url: 'http://backend.sigfox.com/api/coverages/global/predictions?lat='+lat + '&lng=' + lng,
+      url: `http://backend.sigfox.com/api/v2/coverages/global/predictions?lat=${lat}&lng=${lng}`,
       auth: {
           user: process.env.SigfoxAPILogin,
           password: process.env.SigfoxAPIPassword
